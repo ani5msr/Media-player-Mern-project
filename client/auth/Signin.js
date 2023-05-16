@@ -9,8 +9,7 @@ import Icon from '@material-ui/core/Icon'
 import { makeStyles } from '@material-ui/core/styles'
 import auth from './../auth/auth-helper'
 import {Redirect} from 'react-router-dom'
-import {signin} from './auth-api.js'
-
+import {signin} from './api-auth.js'
 
 const useStyle = makeStyles(theme => ({
   card: {
