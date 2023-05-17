@@ -1,5 +1,5 @@
 import PlayMedia from './media/PlayMedia'
-import { read } from './media/api-media.js'
+import { read } from './media/media-api.js'
 
 const routes = [
   {
